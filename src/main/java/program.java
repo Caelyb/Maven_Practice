@@ -1,7 +1,11 @@
-package com.practice;
+package com.J1ggy;
 
 public class Program {
     public static void main(String[] args) {
-        System.err.println("Hello World");
-    };
-};
+        System.out.println(getMessage());
+    }
+
+    public static String getMessage() {
+        return "Hello World";
+    }
+}
